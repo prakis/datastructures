@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "datastructures.org",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Intro",
+        "groups": [
+          {
+            "group": "Common",
+            "pages": [
+              "index",
+              "array",
+              "hashmap",
+              "linkedlist",
+              "stack",
+              "queue",
+              "heap",
+              "tree",
+              "graph"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/intro"
+            ]
+          }         
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+      ]
+    }
+  },
+  "logo": {
+    "light": "/images/dna-logo-transparent-text-black.png",
+    "dark": "/images/dna-logo-transparent-text-white.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Github",
+        "href": "https://github.com/prakis/datastructures"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/prakis",
+      "github": "https://github.com/prakis/datastructures",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
